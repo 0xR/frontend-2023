@@ -9,6 +9,7 @@
   "dependencies": {
     "@slidev/cli": "^0.38.2",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-seriph": "*",
+    "slidev-theme-purplin": "^1.2.0"
   }
 }
