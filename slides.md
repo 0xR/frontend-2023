@@ -139,10 +139,20 @@ layout: full
 
 # CSS layout techniques
 
-- Tables (only in email templates)
-- Column
-- Flexbox
-- Grid 
+- [Flexbox](https://codepen.io/web-dot-dev/pen/jOyWLmg), [Flexbox grid](http://flexboxgrid.com/)
+- [Grid](https://codepen.io/web-dot-dev/pen/YzNwrwB)
+- [Column](https://codepen.io/web-dot-dev/pen/gOgrpzO)
+- Tables (only in email templates) 
+
+Via [web.dev/learn/css/layout/](https://web.dev/learn/css/layout/)
+
+<!--
+- Flexbox can do 1 dimension with wrapping
+- Flexbox can do 2 directions
+- Grid can do 2 dimensions, but no wrapping
+- Flexbox for component, grid for pages
+- Demo: flexbox vertical, full width
+-->
 
 ---
 
@@ -301,6 +311,7 @@ buttonElem.innerHTML = `<button class=${styles.normal}>
 - [spacing utils](https://tailwindcss.com/docs/margin)
 - [theme config](https://tailwindcss.com/docs/theme)
 - [playground](https://play.tailwindcss.com/) 
+- [tailwind ui](https://tailwindui.com/) 
 
 
 ---
@@ -320,14 +331,6 @@ buttonElem.innerHTML = `<button class=${styles.normal}>
 - States lives longer on frontend
 - CSS approaches
 -->
-
----
-
-# Rendering on the server or the client
-
-<img src="rendering.svg" class="h-100"/>
-
-From: [www.patterns.dev](https://www.patterns.dev)
 
 ---
 
@@ -364,11 +367,36 @@ From: [www.patterns.dev](https://www.patterns.dev)
 
 ---
 
+# Should everything be `<framework>`?
+
+[Application Holotypes](https://jasonformat.com/application-holotypes/)
+
+---
+
+# Rendering on the server or the client
+
+<img src="rendering.svg" class="h-100"/>
+
+From: [www.patterns.dev](https://www.patterns.dev)
+
+---
+
+# What framework to use?
+
+[State of JS](https://2021.stateofjs.com/en-US/libraries/front-end-frameworks/)
+
+---
+
 # Components
+- UI building block
+- Replaces templates
+- Are selfcontained, with markup, styling and behavior
+- Have a clear API
 
 ---
 
 # Island Architecture
+<img src="islands-architecture-1.png">
 
 ---
 
@@ -388,14 +416,29 @@ From: [www.patterns.dev](https://www.patterns.dev)
 
 ---
 
-# JAMSTack
-
-
-
+# JAMstack
+- Javascript, API and Markups
+- HTML / CSS / Javascript is stored on a CDN
+- There is no server returning HTML, just JSON API
+- Can be both a SPA or a static website 
 
 ---
 
 # Typescript
+- Defining Types
+- Types by Inference
+- Composing Types
+- Unions
+- Typing functions
+- Typing classes
+- Generics
+- Enums
+- Nullability
+- Type assertions
+- Type narrowing
+- Type Guards
+- Running the compiler
+
 
 ---
 
