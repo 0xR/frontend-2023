@@ -273,6 +273,34 @@ buttonElem.innerHTML = `<button class=${styles.normal}>
 ---
 
 # Tailwind
+- Collection of CSS utility that can be configured with a theme
+- Can be used to build any UI, it's lower level than a CSS framework 
+- No need to write CSS since you can use existing utilities
+- Works with any frontend framework 
+- Features: responsive design, dark theme, hover/focus styles, customization
+- Unused CSS can be detected and removed from the output
+
+---
+
+# Atomic CSS Utilities
+- Only define 1 css property: `.mt-1 { margin-top: 0.25rem }`
+- Small CSS files because maximum reuse
+- No cascade since you only need 1 class per css property 
+- No specificity wars since you only use the class selector
+
+<!--
+- atomic means, smallest unit, can't be split
+- units of reuse are so small
+
+-->
+
+---
+
+# Tailwind demo
+- [utilities in practice](https://tailwindcss.com/docs/utility-first)
+- [spacing utils](https://tailwindcss.com/docs/margin)
+- [theme config](https://tailwindcss.com/docs/theme)
+- [playground](https://play.tailwindcss.com/) 
 
 
 ---
